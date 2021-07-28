@@ -8,6 +8,7 @@
 //#define ART_NOWRITELOCK
 #include <stdint.h>
 #include <atomic>
+#include <functional>
 #include <string.h>
 #include "Key.h"
 #include "Epoche.h"

@@ -63,5 +63,5 @@ add_executable (dptree test/dptree_test.cxx
         src/bloom.c)
 
 
-target_link_libraries (concur_dptree pthread tbb papi tcmalloc_minimal)
-target_link_libraries (dptree pthread tbb papi tcmalloc_minimal)
+target_link_libraries (concur_dptree pthread tbb tcmalloc_minimal)
+target_link_libraries (dptree pthread tbb tcmalloc_minimal)

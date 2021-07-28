@@ -1,10 +1,15 @@
+
 #include "util.h"
 #include <unordered_set>
 #include <random>
 #include <algorithm>
 #include <atomic>
 #include <cassert>
-
+#ifdef _MSC_VER
+#include <intrin.h>
+#else
+#include <x86intrin.h>
+#endif
 using namespace std;
 
 unsigned long write_latency_in_ns;
